@@ -41,17 +41,17 @@ Now, how it works with lists:
 + etc.
 
 ## Results
-> if dc = 5
+> if dc = 5 we have 3 clusters
 ![](images/cluster_test_dc5.png)
-> if dc = 6
+> if dc = 6 we have 2 clusters
 ![](images/cluster_test_dc6.png)
-> if dc = 7
+> if dc = 7 we have 1 cluster
 ![](images/cluster_test_dc7.png)
-> if dc = 1.5
+> if dc = 1.5 we have 4 clusters
 ![](images/cluster_circle_dc1.5.png)
-> if dc = 2
+> if dc = 2 we have 3 clusters
 ![](images/cluster_circle_dc2.png)
-> if dc = 5
+> if dc = 5 we have 2 clusters
 ![](images/cluster_circle_dc5.png)
 
 ## Learn more
