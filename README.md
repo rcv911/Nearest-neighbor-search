@@ -23,20 +23,20 @@ Note, you can use another distance function like [Manhattan distance](https://en
 + Find 'embryo' -> the most closest dots
 + Find indexes - the minimum distance among all
 + 3 lists:
- + list 1 - long added points and their neighbors
- + list 2 - fresh points added in the last step. It needs find their neighbors
- + list 3 - this points is a new neighbors from list 2
+  + list 1 - long added points and their neighbors
+  + list 2 - fresh points added in the last step. It needs find their neighbors
+  + list 3 - this points is a new neighbors from list 2
 
 Now, how it works with lists:
 + 1st step:
- + list 1 is empty
- + list 2 has 'embryo'
- + list 3 new neighbors
+  + list 1 is empty
+  + list 2 has 'embryo'
+  + list 3 new neighbors
 
 + 2nd step:
- + list 2 is list 1 now
- + list 3 is list 2 now
- + list 3 is empty
+  + list 2 is list 1 now
+  + list 3 is list 2 now
+  + list 3 is empty
  
 + etc.
 
